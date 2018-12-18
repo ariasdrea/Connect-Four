@@ -1,0 +1,119 @@
+body {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.column {
+    display: inline-block;
+}
+
+.instructions {
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    font-size: 25px;
+}
+
+div {
+    margin: -2px;
+    border: 3px solid black;
+    border-radius: 100%;
+}
+
+/* PLAYER 1 AND IMG */
+.one {
+    display: inline-flex;
+    position: relative;
+    bottom: 300px;
+    right: 80px;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.red {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    top: 30px;
+    right: 85px;
+    z-index: -1;
+}
+
+/* PLAYER 2 AND IMG */
+.two {
+    display: inline-block;
+    position: relative;
+    bottom: 300px;
+    left: 150px;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.black {
+    position: relative;
+    width: 75px;
+    height: 70px;
+    top: 70px;
+    right: 100px;
+    z-index: -1;
+}
+
+.slot {
+    width: 70px;
+    height: 70px;
+    background-color: #c2e3e8;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.hole {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    margin-top: 5px;
+}
+
+.slot.player1 .hole {
+    background-color: #B60016;
+    transition: 0.9s;
+    transform: rotate3d(1, 1, 1, 360deg);
+}
+
+.slot.player2 .hole {
+    background-color: #170000;
+    transition: 0.9s;
+    transform: rotate3d(1, 1, 1, -360deg);
+}
+
+/* VICTORY BANNER */
+main {
+    height: 100%;
+    overflow: hidden;
+}
+
+.banner {
+    position: fixed;
+    transition-property: opacity;
+    border: 2px solid black;
+    width: 100%;
+    top: 55%;
+    left: 50%;
+    transform: translate(-5000%, -50%);
+    opacity: 0;
+    height: 50%;
+    font-size: 100px;
+    font-weight: bold;
+    padding-top: 240px;
+    padding-right: 150px;
+}
+
+button {
+    border: 5px solid black;
+    background-color: white;
+    display: inline-block;
+    position: relative;
+    top: 80px;
+    left: 400px;
+    font-size: 25px;
+}
