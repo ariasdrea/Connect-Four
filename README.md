@@ -20,3 +20,14 @@ The players first choose a color (red or black) and then take turns dropping one
 ## Technology
 
 -   HTML, CSS & jQuery
+
+## Preview
+
+Vertical Win
+<img src="vertical.gif”>
+
+Horizontal Win
+<img src="horizontal.gif”>
+
+Diagonal Win
+<img src="diagonal.gif”>
