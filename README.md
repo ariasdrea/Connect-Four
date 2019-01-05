@@ -24,10 +24,10 @@ The players first choose a color (red or black) and then take turns dropping one
 ## Preview
 
 Vertical Win
-<img src="vertical.gif”>
+![](vertical.gif)
 
 Horizontal Win
-<img src="horizontal.gif”>
+![](horizontal.gif)
 
 Diagonal Win
-<img src="diagonal.gif”>
+![](diagonal.gif)
